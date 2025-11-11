@@ -342,6 +342,12 @@ section {
   justify-content: space-around;
 }
 
+.color-container .article-container {
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
 article {
   display: flex;
   width: 10rem;
@@ -366,8 +372,10 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 400px;
 }
 
 .project-title {
